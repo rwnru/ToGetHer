@@ -3,6 +3,7 @@
 > Together for her, together with you.
 
 「她予」是一款专为女性设计的健康管理平台，无论是记录月经周期、追踪身体变化，还是获取健康建议，「她予」都能成为你的贴心伙伴。除了这些基础功能外，我们聚焦“月经贫困”问题，着力解决日常场景的实时帮助和经期贫困捐助，打造全国首个整合实时求助＋公益捐赠＋购买商城的经期互助平台。
+
 "ToGetHer" is a health management platform designed specifically for women. Whether it's tracking menstrual cycles, monitoring physical changes, or accessing health advice, "ToGetHer" is your trusted companion. We focus on addressing the issue of "period poverty" by providing real-time assistance in daily situations and enabling menstrual product donations. We're building the nation's first menstrual mutual aid platform that integrates real-time help requests, charitable donations, and a product marketplace.
 
 
