@@ -21,9 +21,10 @@ Our website features a secure login system, a personalized user center (个人�
 In addition to core features such as nationwide donation, a supportive community forum, a caring charity marketplace, and the ability to submit real-time assistance requests, our mobile app also offers menstrual cycle tracking, localized support services, and daily wellness tips. These added tools provide users with a more personalized and accessible way to care for their health, stay informed, and engage with a compassionate support network — all from the convenience of their phone.
 
 
-## Start
-To go to the main page, select:
+
+
+
 
 ```sh
-SHOUYE.html
+Creative Interaction Design and Technologies - Final Project
 ```
