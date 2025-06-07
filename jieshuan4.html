@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结算</title>
+    <link rel="stylesheet" href="jieshuan.css"/>
+</head>
+<body>
+    <header class="DAOHANG">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="img/shezhi.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="img/xiaoxi.png" alt="">
+                    </div>
+                    <div class="touxiang">
+                        <img src="img/touxiang.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="XIASULAN">
+            <div class="CEBIAN">
+                <ul class="menu1">
+                    <li class="active">
+                        <a href="geren.html">
+                            <div class="icon-tubiao">
+                                <img src="img/geren.png" alt="">
+                            </div>
+                            <div class="title">个人中心</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="luntan.html">
+                            <div class="icon-tubiao">
+                                <img src="img/luntan.png" alt="">
+                            </div>
+                            <div class="title">社区论坛</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="shangcheng.html">
+                            <div class="icon-tubiao">
+                                <img src="img/shangcheng.png" alt="">
+                            </div>
+                            <div class="title">爱心商城</div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="donate-btn" onclick="goToDitu()">
+                    <div class="icon-tubiao">
+                        <img src="img/juanzen.png" alt="">
+                    </div>
+                    <div class="title">我要捐款</div>
+                </button>
+                <button class="help-btn" onclick="goToQiuzhu()">
+                    <div class="icon-tubiao">
+                        <img src="img/qiuzhu.png" alt="">
+                    </div>
+                    <div class="title">我要求助</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main-content">
+        <div class="container" >
+            <div class="BIAODAN" style="margin-left : 20px; margin-right : 20px;">
+                <h3 style="font-size:20px;">订单1</h3>
+                <h3 style="font-size:18px;margin-top: 40px;margin-bottom:20px;">商品</h3>
+                <div class="dierhang">
+                  <div class="er">
+                    <img src="img/shangping2.png" alt="" style="width: 50px; height: 50px;margin-right:20px">
+                    <p>伊藤卫生用品套装</p>
+                  </div>
+                    <p style="font-size:15px;color:#828282;"> × 2</p>
+                </div>
+                <div class="dierhang">
+                  <div class="er">
+                    <img src="img/shangping3.png" alt="" style="width: 50px; height: 50px;margin-right:20px">
+                    <p>DEF卫生巾</p>
+                  </div>
+                   <p style="font-size:15px;color:#828282;"> × 3</p>
+                </div>
+                <div class="dierhang" style="margin-top: 40px;">
+                  <h3 style="font-size:18px;">爱心值优惠:</h3>
+                  <p style="font-size:15px;color:#F08486;">￥3.00</p>
+                </div>
+                <div class="dierhang" style="margin-top: 40px;">
+                  <h3 style="font-size:18px;">优惠后价格: </h3>
+                  <p style="font-size:15px;color:#828282;">¥12.00</p>
+                </div>
+                  <h3 style="font-size:18px;margin-top: 40px;">地址: </h3>
+                  <p style="font-size:15px;color:#828282;">山西省太原市小店区长风公寓</p>
+
+                  <h3 style="font-size:18px;margin-top: 40px;">信息: </h3>
+                  <p style="font-size:15px;color:#828282;">李女士 86-167****0089</p>
+
+                  <h3 style="font-size:18px;margin-top: 80px;color:#F08486;">您的订单正在运送中！请耐心等待！ </h3>
+              </div>
+              <div class="DINDAN" style="margin-left : 20px; margin-right : 20px; margin-top : 20px;">
+                  <h3 style="font-size:20px;">订单2</h3>
+                  <h3 style="font-size:18px;margin-top: 40px;margin-bottom:20px;">商品</h3>
+                  <div class="dierhang">
+                    <div class="er">
+                      <img src="img/shangping4.png" alt="" style="width: 50px; height: 50px;margin-right:20px">
+                      <p>LALE卫生棉条</p>
+                    </div>
+                      <p style="font-size:15px;color:#828282;"> × 2</p>
+                  </div>
+                  <div class="dierhang">
+                    <div class="er">
+                      <img src="img/shangping6.png" alt="" style="width: 50px; height: 50px;margin-right:20px">
+                      <p>tea卫生用品专区</p>
+                    </div>
+                     <p style="font-size:15px;color:#828282;"> × 1</p>
+                  </div>
+                  <div class="dierhang" style="margin-top: 40px;">
+                    <h3 style="font-size:18px;color:#828282;">爱心值优惠:</h3>
+                    <p style="font-size:15px;color:#F08486;">捐助不可用</p>
+                  </div>
+                  <div class="dierhang" style="margin-top: 40px;">
+                    <h3 style="font-size:18px;">价格: </h3>
+                    <p style="font-size:15px;color:#828282;">¥15.00</p>
+                  </div>
+                    <h3 style="font-size:18px;margin-top: 40px;color:#828282;">地址:XXXX集中捐助点 </h3>
+                    <p style="font-size:15px;color:#F08486;">捐助不可更改</p>
+
+                    <h3 style="font-size:18px;margin-top: 40px;">信息: </h3>
+                    <p style="font-size:15px;color:#828282;">李女士 86-167****0089</p>
+
+                    <h3 style="font-size:18px;margin-top: 80px;color:#F08486;">您的捐赠已送达！世界因您而美好！ </h3>
+                </div>
+
+        </div>
+    </div>
+
+    <script src="jieshuan.js"></script>
+</body>
+</html>

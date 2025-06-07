@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #FDFDFD;
+}
+
+.mainc {
+  display: flex;
+  margin: auto;
+  justify-content:space-between;
+align-items:center;
+width: 100%;
+}
+
+.container1 {
+    display: flex;
+    height: 100%;
+}
+
+
+.formc {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.formcont {
+    width: 360px;
+    padding: 30px;
+    margin-left: 15%;
+    margin-top: -60px;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.login-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.input {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.input-label {
+    font-size: 13px;
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.input-label img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+.inputc {
+    position: relative;
+    width: 400px;
+   max-width: none;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.input-line {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+    flex: 1;
+    padding: 5px 0;
+}
+
+.input-line::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+.loginbtn {
+    background-color: #FF8F36;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+    width: auto;
+    padding: 12px 40px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.loginbtn:hover {
+    background-color: #E55A5A;
+}
+
+
+.imcontainer {
+    width: 800px;
+    height: 900px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 0;
+}
+
+.login-image {
+    width: 800px;
+    height: 900px;
+    object-fit: cover;
+    object-position: right;
+    right: 0;
+    top: 0;
+    position: sticky;
+    margin-right: 0;
+}
+
+
+.input-line::placeholder {
+    color: #999;
+    font-size: 14px;
+    opacity: 1;
+}
+
+
+.input-line:focus::placeholder {
+    color: transparent;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 30px;
+    width: 100%;
+    overflow: visible;
+}
+
+.loginbtn {
+    width: auto;
+    padding: 12px 40px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.login2 {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    font-size: 12px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.loginicon {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.loginicon img {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.rememberme {
+  align-items: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.rememberme input[type="checkbox"]{
+  width: 14px;
+  height: 14px;
+  margin-top: 20px;
+  accent-color: #FF8F36;
+  margin-right: 10px;
+}
+
+.second {
+  display: flex;
+  margin-top: 100px;
+  justify-content:space-between;
+align-items:center;
+width: 100%;
+min-height: 1000px
+}
+
+.shouye2 {
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.shouye2 img {
+    width: 1200px;
+    height: 1000px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.sectext {
+    width: 45%;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    padding: 80px;
+    margin-right: 20px
+}
+
+.content {
+    max-width: 500px;
+    width: 100%;
+}
+
+.header2 {
+      text-align: right;
+      font-size: 26px;
+      padding-right: 12px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+}
+
+.paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.headercon {
+    justify-content: flex-end;
+    align-items: right;
+    margin-bottom: 1.5rem;
+    position: relative;
+    margin-right: -30px;
+    padding-right: 16px;
+}
+
+.line {
+    position: absolute;
+    margin-right: 20px;
+    right: 0;
+    top: 0;
+    height: 38px;
+    width: 4.5px;
+    background-color: #FF8F36;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+
+.third {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width: 100%;
+}
+
+.ltext {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px;
+}
+
+.right-image {
+    width: 55%;
+    position: relative;
+    overflow: hidden;
+}
+
+.right-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.ltext .headercon {
+    justify-content: flex-start;
+    padding-left: 16px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.ltext .line {
+    left: 0;
+    right: auto;
+}
+
+.ltext .header {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.ltext .paragraph {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .third {
+        flex-direction: column;
+    }
+
+    .ltext,
+    .right-image {
+        width: 100%;
+    }
+
+    .right-image {
+        height: 300px;
+        order: -1;
+    }
+
+    .ltext {
+        padding: 40px;
+    }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情页</title>
+    <link rel="stylesheet" href="shangpinxiangqing.css"/>
+</head>
+<body>
+    <header class="DAOHANG">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="img/shezhi.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="img/xiaoxi.png" alt="">
+                    </div>
+                    <div class="touxiang">
+                        <img src="img/touxiang.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="XIASULAN">
+            <div class="CEBIAN">
+                <ul class="menu1">
+                    <li class="active">
+                        <a href="geren.html">
+                            <div class="icon-tubiao">
+                                <img src="img/geren.png" alt="">
+                            </div>
+                            <div class="title">个人中心</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="luntan.html">
+                            <div class="icon-tubiao">
+                                <img src="img/luntan.png" alt="">
+                            </div>
+                            <div class="title">社区论坛</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="shangcheng.html">
+                            <div class="icon-tubiao">
+                                <img src="img/shangcheng.png" alt="">
+                            </div>
+                            <div class="title">爱心商城</div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="donate1-btn">
+                    <div class="icon-tubiao">
+                        <img src="img/juanzen1.png" alt="">
+                    </div>
+                    <div class="title">我要捐款</div>
+                </button>
+                <button class="help-btn" onclick="goToQiuzhu()">
+                    <div class="icon-tubiao">
+                        <img src="img/qiuzhu.png" alt="">
+                    </div>
+                    <div class="title">我要求助</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main-content">
+        <div class="container">
+            <div class="TOUBU">
+                <div class="icon-fanhui">
+                    <a href="juanzhushangping.html">
+                      <img src="img/fanhui.png" alt="">
+                    </a>
+                </div>
+                <div class="icon-huanye">
+                    <a href="shangpinxiangqing3juan.html">
+                      <img src="img/shangyi.png" alt="">
+                    </a>
+
+                    <a href="shangpinxiangqing5juan.html">
+                      <img src="img/xiayi.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="ZHENWEN">
+              <div class="dilinghang">
+                  <h1>LALE卫生棉条</h1>
+                  <p1 class="xx">商品     04/06</p1>
+              </div>
+                  <div class="icon-shangping">
+                       <div class="tuwen">
+                            <div class="xiangqing">
+                                <div class="diyihang">
+                                  <div class="price">¥ 1.00</div>
+                                  <div class="rating">★★★★★ 4.5/5.0 (458)</div>
+                                </div>
+                                <div class="description">
+                                    平台优选合作品牌。我们的产品，怀揣着满满的爱心，与平台深度合作。多年来，持续为偏远山区、贫困地区的女性送去大量优质卫生巾，即她们从贫困中走出生理期，将温暖切实传递。
+                                    安全是产品的核心。生产全程遵循严格标准，从原材料采购、加工到成品出厂，经过多道严格检测，确保无荧光剂、香料、重金属等有害添加，杜绝过敏风险。严选上乘天然纯棉材质，亲肤柔软，仿若第二层肌肤，温柔贴合敏感部位，减少摩擦不适。内部高效吸收体，能迅速锁住经血，防止渗漏，保持表面干爽，全方位为女性健康保驾护航，用爱心与品质，守护每一位女性的生理期。
+                                </div>
+                            </div>
+                            <div class="dierhang">
+                                <div class="number">
+                                    <button onclick="decrease(this)">-</button>
+                                    <input type="text" value="1" readonly>
+                                    <button onclick="increase(this)">+</button>
+                                </div>
+                                <button class="buttonjiesuan" onclick="checkout()">去结算</button>
+                            </div>
+                      </div>
+                      <div class="shangpingtu">
+                          <img src="img/shangping4.png" alt="">
+                      </div>
+                </div>
+          </div>
+
+          <h3 class="pingjia">用户评价</h3>
+          <div class="REVIEW">
+                  <img src="img/user.1.png" alt="" class="icon-user">
+                  <div class="PINGJIA">
+                    <div class="review-header">
+                      <div class="username">lilili</div>
+                      <div class="rating">★★★★★</div>
+                    </div>
+                    <div class="content">
+                        在捐助的同时我自己也有买来用，用起来非常舒适，只有自己安心才敢放心捐给别人~因为是合作方所以价格也很便宜，非常有爱的品牌。
+                    </div>
+                    <div class="footer">
+                        <div class="icon-review">
+                            <img src="img/like.png" alt="">
+                        </div>
+                        <div class="shuzi">133</div>
+                        <div class="icon-review">
+                            <img src="img/comment.png" alt="">
+                        </div>
+                        <div class="shuzi">17</div>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="REVIEW">
+                    <img src="img/user.4.png" alt="" class="icon-user">
+                    <div class="PINGJIA">
+                      <div class="review-header">
+                        <div class="username">我不是牛马</div>
+                        <div class="rating">★★★★★</div>
+                      </div>
+                      <div class="content">
+                          虽然没什么钱也想为山区的女性经期贫困问题做出一点点贡献。感谢平台，这个定价真的性价比很高了。
+                      </div>
+                      <div class="footer">
+                          <div class="icon-review">
+                              <img src="img/like.png" alt="">
+                          </div>
+                          <div class="shuzi">151</div>
+                          <div class="icon-review">
+                              <img src="img/comment.png" alt="">
+                          </div>
+                          <div class="shuzi">18</div>
+                      </div>
+                   </div>
+              </div>
+
+    <script src="shangpinxiangqingjuan.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+    padding: 5px; /
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DAOHANG{
+    width: 100%;
+    background-color: #FFC599;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: fixed;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+    max-width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.touxiang img{
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.XIASULAN {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 700px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-image: url('img/beijing.png');
+    background-repeat: no-repeat;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s ease;
+}
+
+.CEBIAN {
+    padding: 20px;
+}
+
+.menu1 {
+    margin-bottom: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.menu1 li {
+    margin-bottom: 30px;
+}
+
+.menu1 li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-tubiao1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon-tubiao1 img {
+    width: 100%;
+    max-width: 30px;
+}
+
+.icon-tubiao {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon-tubiao img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.help1-icon {
+  width: 100%;
+  max-width: 30px;
+}
+
+.menu1 li:nth-child(1) .icon-tubiao img,
+.menu1 li:nth-child(3) .icon-tubiao img {
+    max-width: 30px;
+}
+
+.title {
+    font-size: 21px;
+}
+
+.donate-btn, .help-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA18B;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.donate1-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #FF8F36;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.help1-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #FF8F36;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.help-btn .icon-tubiao img{
+  max-width: 30px
+}
+
+.donate-btn:hover, .help-btn:hover {
+    background-color: #FF8F36;
+}
+
+.active3{
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: -11px;
+  margin-top: -11px;
+}
+
+
+.main-content {
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 320px;
+  }
+
+
+
+.BIAODAN{
+   margin-top:-10px;
+   margin-left:10px;
+   padding: 30px 50px;
+   background-color: #FFFFFF;
+   border: 2px solid #C4C4C4;
+   border-radius: 10px;
+}
+
+
+h2 {
+       color: #2c3e50;
+       margin-bottom: 25px;
+       padding-bottom: 15px;
+       border-bottom: 2px solid #f0f5fa;
+       font-size: 20px;
+       display: flex;
+       align-items: center;
+       gap: 12px;
+}
+
+h2 i {
+      background: #FF7D65;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.form-group {
+      margin-bottom: 28px;
+}
+
+label {
+     display: block;
+     margin-bottom: 10px;
+     font-weight: 600;
+     color: #2c3e50;
+     font-size: 15px;
+}
+
+.required::after {
+      content: " *";
+      color: #FF8F36;
+ }
+
+input, select, textarea {
+      width: 100%;
+      padding: 15px;
+      border: 2px solid #e1e8ed;
+      border-radius: 10px;
+      font-size:15px;
+      transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+      border-color: #FF8F36;
+      outline: none;
+      box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.15);
+}
+
+.form-row {
+      display: flex;
+      gap: 25px;
+      margin-bottom: 28px;
+}
+
+.form-col {
+      flex: 1;
+}
+
+.shenqing-btn{
+    margin-top:30px;
+    padding: 10px 100px;
+    background-color: #FF8F36;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.JIESHU2{
+    margin-top:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+
+
+@media (max-width: 900px) {
+    .XIASULAN {
+        left: -400px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+}

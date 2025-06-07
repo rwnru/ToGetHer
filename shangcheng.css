@@ -1,0 +1,413 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+    padding: 5px; /
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DAOHANG{
+    width: 100%;
+    background-color: #FFC599;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: fixed;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+    max-width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.touxiang img{
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.XIASULAN {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 700px;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-image: url('img/beijing.png');
+    background-repeat: no-repeat;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s ease;
+}
+
+.CEBIAN {
+    padding: 20px;
+}
+
+.menu1 {
+    margin-bottom: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.menu1 li {
+    margin-bottom: 30px;
+}
+
+.menu1 li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-tubiao {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon-tubiao img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.menu1 li:nth-child(1) .icon-tubiao img,
+.menu1 li:nth-child(3) .icon-tubiao img {
+    max-width: 30px;
+}
+
+.title {
+    font-size: 21px;
+}
+
+.donate-btn, .help-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA18B;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.donate1-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #FF8F36;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.help-btn .icon-tubiao img{
+  max-width: 30px
+}
+
+.donate-btn:hover, .help-btn:hover {
+    background-color: #FF8F36;
+}
+
+.active3{
+  align-items: center;
+  border: 2px solid #C4C4C4;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: -11px;
+  margin-top: -13px;
+}
+
+
+.main-content {
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 320px;
+  }
+
+
+
+
+
+.TOUBU {
+    background-color: #FFFFFF;
+    color: black;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-right: 50px;
+}
+
+.icon-fanhui {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.suoyoushangping{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.text{
+    font-size: 16px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 30px;
+}
+
+.search-bar input {
+    width: 40%;
+    height: 45px;
+    padding: 5px;
+    border: 2px solid #FFA18B;
+    border-radius: 4px;
+}
+
+
+.heart-icon img {
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: -140px;
+}
+
+.circle.selected {
+    background-color: #E64F70;
+    border-color: #E64F70;
+}
+
+.pngtext {
+    display: flex;
+    flex-grow: 1;
+    align-items:flex-start;
+}
+
+.icon-shangping {
+    margin-right: 10px;
+}
+
+.icon-shangping img {
+    width: 200px;
+    height: 200px;
+}
+
+.shangpingmingcheng {
+    font-size: 20px;
+    color:#0D0D0D;
+    margin: 20px;
+}
+
+.shangpingjieshao {
+    font-size: 16px;
+    color:#9E9897;
+    margin: 20px;
+}
+
+.jiage {
+    font-size: 20px;
+    color:#0D0D0D;
+    margin: 20px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.number button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.number input {
+    width: 40px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+
+.DIBU{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.buttonjiesuan{
+    background-color: #FF6B81;
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 10px
+}
+
+.suoxuanshangpingshu{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.jiesuanxingxi{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.xuanzecard{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.circle-2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.circle-2.selected {
+    background-color: #E64F70;
+    border-color: #E64F70;
+}
+
+.aixingzhi2{
+    width:30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all{
+  font-size: 28px;
+  color:#E64F70;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+@media (max-width: 900px) {
+    .XIASULAN {
+        left: -400px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+    .suoyoushangping {
+        display: none;
+    }
+    .number {
+        display: none;
+    }
+    .jiage {
+        display: none;
+    }
+    .jiesuanxingxi {
+        display: none;
+    }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>捐助商品</title>
+    <link rel="stylesheet" href="shangcheng.css"/>
+</head>
+<body>
+    <header class="DAOHANG">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="img/shezhi.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="img/xiaoxi.png" alt="">
+                    </div>
+                    <div class="touxiang">
+                        <img src="img/touxiang.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="XIASULAN">
+            <div class="CEBIAN">
+                <ul class="menu1">
+                    <li class="active">
+                        <a href="geren.html">
+                            <div class="icon-tubiao">
+                                <img src="img/geren.png" alt="">
+                            </div>
+                            <div class="title">个人中心</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="luntan.html">
+                            <div class="icon-tubiao">
+                                <img src="img/luntan.png" alt="">
+                            </div>
+                            <div class="title">社区论坛</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="shangcheng.html">
+                            <div class="icon-tubiao">
+                                <img src="img/shangcheng.png" alt="">
+                            </div>
+                            <div class="title">爱心商城</div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="donate1-btn">
+                    <div class="icon-tubiao">
+                        <img src="img/juanzen1.png" alt="">
+                    </div>
+                    <div class="title">我要捐款</div>
+                </button>
+                <button class="help-btn" onclick="goToQiuzhu()">
+                    <div class="icon-tubiao">
+                        <img src="img/qiuzhu.png" alt="">
+                    </div>
+                    <div class="title">我要求助</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main-content">
+        <div class="container">
+            <div class="TOUBU">
+                <h3 class="suoyoushangping">所有商品</h3>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search">
+                </div>
+
+            </div>
+            <div class="card-box">
+                <div class="card" onclick="handleDoubleClick1(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping1.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">爱纳卫生用品</p>
+                            <p class="shangpingjieshao">包括卫生巾和卫生棉条，<br>性价比较高的安全品牌。</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 6.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="handleDoubleClick2(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">伊莲卫生用品</p>
+                            <p class="shangpingjieshao">包括卫生巾和卫生棉条，<br>您可以放心选择我们！</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 6.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" onclick="handleDoubleClick3(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping3.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">DEF卫生巾</p>
+                            <p class="shangpingjieshao">价格适宜品质放心的卫生<br>巾专区。</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 1.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" onclick="handleDoubleClick4(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping4.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">LALE卫生棉条</p>
+                            <p class="shangpingjieshao">价格适宜品质放心的卫生<br>棉条专区。</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 1.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" onclick="handleDoubleClick5(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping5.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">青自言选卫生巾</p>
+                            <p class="shangpingjieshao">高品质、高舒适度的优质<br>卫生巾。</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 15.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" onclick="handleDoubleClick6(this)">
+                    <div class="circle" onclick="toggleSelect(this)"></div>
+                    <div class="pngtext">
+                        <div class="icon-shangping">
+                            <img src="img/shangping6.png" alt="">
+                        </div>
+                        <div class="text">
+                            <p class="shangpingmingcheng">tea卫生用品专区</p>
+                            <p class="shangpingjieshao">高品质、高舒适度的优质<br>卫生用品。</p>
+                        </div>
+                        <p class="jiage" style="margin-left: auto; margin-right: 10px;">¥ 20.00</p>
+                        <div class="number">
+                            <button onclick="decrease(this)">-</button>
+                            <input type="text" value="1" readonly>
+                            <button onclick="increase(this)">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="DIBU">
+                <div class="suoxuanshangpingshu">
+                    <p>共选 n 件商品</p>
+                </div>
+                <div class="right">
+                    <div class="jiesuanxingxi">
+                        <h>合计</h>
+                        <h class="all">¥ XXX.XX</h>
+                    </div>
+                    <button class="buttonjiesuan" onclick="checkout()">去结算</button>
+                </div>
+            </div>
+          </div>
+      </div>
+
+    <script src="juanzhushangping.js"></script>
+</body>
+</html>

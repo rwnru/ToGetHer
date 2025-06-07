@@ -1,0 +1,373 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+    padding: 5px; /
+}
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+  width: 100%;
+  max-width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DAOHANG{
+    width: 100%;
+    background-color: #FFC599;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: fixed;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+    max-width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.touxiang img{
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 10px;
+}
+
+
+.XIASULAN {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    width: 300px;
+    height: 700px;
+    background-color: #FFFFFF;
+    background-image: url('img/beijing.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    transition: left 0.3s ease;
+}
+
+.CEBIAN {
+    padding: 20px;
+}
+
+.menu1 {
+    margin-bottom: 250px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.menu1 li {
+    margin-bottom: 30px;
+}
+
+.menu1 li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.icon-tubiao {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon-tubiao img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.menu1 li:nth-child(1) .icon-tubiao img,
+.menu1 li:nth-child(3) .icon-tubiao img {
+    max-width: 30px;
+}
+
+.title {
+    font-size: 21px;
+}
+
+.donate-btn, .help-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #FFA18B;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.donate1-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #FF8F36;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.help-btn .icon-tubiao img{
+  max-width: 30px
+}
+
+.donate-btn:hover, .help-btn:hover {
+    background-color: #FF8F36;
+}
+
+.active3{
+  align-items: center;
+  border: 2px solid #C4C4C4;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: -11px;
+  margin-top: -11px;
+}
+
+
+.main-content {
+    padding: 0px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 320px;
+  }
+
+
+.TOUBU {
+      background-color: #FFFFFF;
+      color: black;
+      padding: 0px 5px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 0;
+      margin-right: 50px;
+  }
+
+.BUZHOU{
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px
+}
+
+.buzhou1{
+   margin-right: 30px;
+}
+
+.buzhou2{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.buzhou3{
+   margin-right: 30px;
+   margin-left: 30px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    margin-right: 10px;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.circle.selected {
+    background-color: #E64F70;
+    border-color: #E64F70;
+}
+
+.yi{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.xuanze{
+  margin-bottom: 10px;
+}
+
+.diyihang {
+     flex-direction: row;
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+}
+
+.tianjia{
+  flex-direction: row;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.er{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dierhang{
+     flex-direction: row;
+     justify-content: space-between;
+     display: flex;
+     align-items: center;
+}
+
+.jixu-btn{
+    margin-top:30px;
+    padding: 10px 100px;
+    background-color: #FF8F36;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+.DINDAN{
+   margin-top:-10px;
+   margin-left:70px;
+   padding: 30px 50px;
+   background-color: #FFFFFF;
+   border: 2px solid #C4C4C4;
+   border-radius: 10px;
+}
+
+.BIAODAN{
+   margin-top:-10px;
+   margin-left:70px;
+   padding: 30px 50px;
+   background-color: #FFFFFF;
+   border: 2px solid #C4C4C4;
+   border-radius: 10px;
+}
+
+.XUANZE{
+    align-self: flex-start;
+    margin-top:40px;
+}
+
+.NEIBU {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.JIESHU{
+    margin-top:250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.JIESHU2{
+    margin-top:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.san{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.juzi{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.TOUBUyou{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-top:-34px;
+}
+
+@media (max-width: 900px) {
+    .XIASULAN {
+        left: -400px;
+    }
+    .main-content {
+        margin-left: 0;
+    }
+    .DINDAN{
+        display: none;
+    }
+}

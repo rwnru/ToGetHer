@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>求助审核</title>
+    <link rel="stylesheet" href="qiuzhu.css"/>
+</head>
+<body>
+    <header class="DAOHANG">
+        <div class="container">
+            <div class="row">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="img/shezhi.png" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="img/xiaoxi.png" alt="">
+                    </div>
+                    <div class="touxiang">
+                        <img src="img/touxiang.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="XIASULAN">
+            <div class="CEBIAN">
+                <ul class="menu1">
+                    <li class="active">
+                        <a href="geren.html">
+                            <div class="icon-tubiao">
+                                <img src="img/geren.png" alt="">
+                            </div>
+                            <div class="title">个人中心</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="luntan.html">
+                            <div class="icon-tubiao">
+                                <img src="img/luntan.png" alt="">
+                            </div>
+                            <div class="title">社区论坛</div>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="shangcheng.html">
+                            <div class="icon-tubiao">
+                                <img src="img/shangcheng.png" alt="">
+                            </div>
+                            <div class="title">爱心商城</div>
+                        </a>
+                    </li>
+                </ul>
+                <button class="donate-btn" onclick="goToDitu()">
+                    <div class="icon-tubiao">
+                        <img src="img/juanzen.png" alt="">
+                    </div>
+                    <div class="title">我要捐款</div>
+                </button>
+                <button class="help1-btn">
+                    <div class="icon-tubiao1">
+                        <img src="img/qiuzhu1.png" alt="">
+                    </div>
+                    <div class="title">我要求助</div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="main-content">
+        <div class="container">
+              <div class="BIAODAN">
+                  <h3 style="font-size:30px; margin-bottom: 50px;">求助申请表</h3>
+                  <div class="form-section active" id="personal-form">
+                    <h2><i class="fas fa-user"></i> 个人信息</h2>
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="personal-name" class="required">姓名</label>
+                                <input type="text" id="personal-name" placeholder="请输入您的姓名">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="personal-phone" class="required">联系电话</label>
+                                <input type="tel" id="personal-phone" placeholder="请输入您的手机号码">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="personal-year">年龄</label>
+                                <input type="email" id="personal-email" placeholder="请输入您的年龄">
+                            </div>
+                        </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="personal-id"  class="required">身份证号</label>
+                                <input type="text" id="personal-id" placeholder="请输入您的身份证号码">
+                            </div>
+                        </div>
+                    </div>
+                    <h2><i class="fas fa-donate"></i>物资申请</h2>
+                    <div class="form-row">
+                      <div class="form-col">
+                          <div class="form-group">
+                              <label for="personal-name" class="required">所需物资</label>
+                              <input type="text" id="personal-name" placeholder="请输入您需要的物资">
+                          </div>
+                      </div>
+                        <div class="form-col">
+                            <div class="form-group">
+                                <label for="personal-type" class="required">物资投送</label>
+                                <input type="text" id="personal-amount" placeholder="请输入物资投送地址">
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2><i class="fas fa-another"></i>附件</h2>
+                    <div class="form-row">
+                      <div class="form-col">
+                          <div class="form-group">
+                              <label for="personal-name" class="required">提交相关证明，提高审核速度！</label>
+                               <div class="upload-section" id="drop-area">
+                                   <div class="upload-icon">
+                                       <i class="fas fa-file-image"></i>
+                                   </div>
+                                   <button class="upload-btn" id="upload-btn">
+                                       <i class="fas fa-upload"></i>
+                                   </button>
+                                   <input type="file" id="file-input" class="file-input" accept="image/*" multiple>
+                               </div>
+                          </div>
+                      </div>
+                    </div>
+                    <button class="shenqing-btn"><a href="qiuzhu2.html" target="">提交申请</button>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+    <script src="qiuzhu.js"></script>
+</body>
+</html>
