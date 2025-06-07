@@ -25,6 +25,6 @@ In addition to core features such as nationwide donation, a supportive community
 
 
 
-```sh
-Creative Interaction Design and Technologies - Final Project
-```
+
+> Creative Interaction Design and Technologies - Final Project
+
